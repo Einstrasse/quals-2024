@@ -4,6 +4,16 @@ vito's parameter injection web chall for quals
 
 built with Raw Water technology!
 
+## local run
+### Generate Demo Ticket
+exlixir dep까지 다 설치된 이후, 아래 명령어로 티켓을 만들 수 있다.    
+web Docker안에 들어가서 명령어를 수행하면 간편할 듯.
+```bash
+$ mix run priv/mk_ticket.ex
+```
+
+
+
 ## concept
 
 1. players submit a ticket and get an instanced, per-team message board
